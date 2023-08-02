@@ -165,7 +165,7 @@
             this.labelTableName.ForeColor = System.Drawing.Color.White;
             this.labelTableName.Location = new System.Drawing.Point(628, 6);
             this.labelTableName.Name = "labelTableName";
-            this.labelTableName.Size = new System.Drawing.Size(88, 45);
+            this.labelTableName.Size = new System.Drawing.Size(73, 37);
             this.labelTableName.TabIndex = 23;
             this.labelTableName.Text = "xxxx";
             // 
@@ -419,7 +419,7 @@
             this.textBox_FromCust.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.textBox_FromCust.Location = new System.Drawing.Point(15, 85);
             this.textBox_FromCust.Name = "textBox_FromCust";
-            this.textBox_FromCust.Size = new System.Drawing.Size(174, 57);
+            this.textBox_FromCust.Size = new System.Drawing.Size(174, 47);
             this.textBox_FromCust.TabIndex = 1;
             this.textBox_FromCust.Text = "0";
             this.textBox_FromCust.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -433,7 +433,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(9, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(242, 45);
+            this.label2.Size = new System.Drawing.Size(191, 37);
             this.label2.TabIndex = 21;
             this.label2.Text = "รับเงินจากลูกค้า";
             // 
@@ -444,7 +444,7 @@
             this.labelChange.ForeColor = System.Drawing.Color.White;
             this.labelChange.Location = new System.Drawing.Point(46, 135);
             this.labelChange.Name = "labelChange";
-            this.labelChange.Size = new System.Drawing.Size(133, 45);
+            this.labelChange.Size = new System.Drawing.Size(106, 37);
             this.labelChange.TabIndex = 22;
             this.labelChange.Text = "เงินทอน";
             // 
@@ -453,7 +453,7 @@
             this.textBox_Change.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.textBox_Change.Location = new System.Drawing.Point(15, 182);
             this.textBox_Change.Name = "textBox_Change";
-            this.textBox_Change.Size = new System.Drawing.Size(174, 57);
+            this.textBox_Change.Size = new System.Drawing.Size(174, 47);
             this.textBox_Change.TabIndex = 200;
             this.textBox_Change.TabStop = false;
             this.textBox_Change.Text = "0";
@@ -635,7 +635,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(241, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 40);
+            this.label1.Size = new System.Drawing.Size(108, 33);
             this.label1.TabIndex = 20;
             this.label1.Text = "ยอดชำระ";
             // 
@@ -644,7 +644,7 @@
             this.textBox_PayAmount.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_PayAmount.Location = new System.Drawing.Point(399, 4);
             this.textBox_PayAmount.Name = "textBox_PayAmount";
-            this.textBox_PayAmount.Size = new System.Drawing.Size(206, 53);
+            this.textBox_PayAmount.Size = new System.Drawing.Size(206, 44);
             this.textBox_PayAmount.TabIndex = 200;
             this.textBox_PayAmount.TabStop = false;
             this.textBox_PayAmount.Text = "0";
@@ -674,7 +674,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(219, 50);
+            this.label3.Size = new System.Drawing.Size(177, 41);
             this.label3.TabIndex = 202;
             this.label3.Text = "การชำระเงิน";
             // 
@@ -713,6 +713,7 @@
             this.buttonCreditCard.TabStop = false;
             this.buttonCreditCard.Text = "บัตรเครดิต";
             this.buttonCreditCard.UseVisualStyleBackColor = false;
+            this.buttonCreditCard.Visible = false;
             this.buttonCreditCard.Click += new System.EventHandler(this.buttonCreditCard_Click);
             // 
             // buttonBanking
@@ -800,7 +801,7 @@
             "BBL"});
             this.comboBoxBankType.Location = new System.Drawing.Point(95, 65);
             this.comboBoxBankType.Name = "comboBoxBankType";
-            this.comboBoxBankType.Size = new System.Drawing.Size(151, 49);
+            this.comboBoxBankType.Size = new System.Drawing.Size(151, 40);
             this.comboBoxBankType.TabIndex = 121;
             // 
             // buttonCD_UNION
@@ -860,7 +861,7 @@
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(132, 146);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(106, 35);
+            this.label12.Size = new System.Drawing.Size(79, 27);
             this.label12.TabIndex = 205;
             this.label12.Text = "ยอด Tip";
             // 
@@ -898,7 +899,7 @@
             "OTHER"});
             this.comboBoxCardType.Location = new System.Drawing.Point(14, 39);
             this.comboBoxCardType.Name = "comboBoxCardType";
-            this.comboBoxCardType.Size = new System.Drawing.Size(309, 49);
+            this.comboBoxCardType.Size = new System.Drawing.Size(309, 40);
             this.comboBoxCardType.TabIndex = 15;
             this.comboBoxCardType.Text = "Credit Card Type";
             // 
@@ -909,7 +910,7 @@
             this.textBoxCreditCardNo.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBoxCreditCardNo.Location = new System.Drawing.Point(14, 94);
             this.textBoxCreditCardNo.Name = "textBoxCreditCardNo";
-            this.textBoxCreditCardNo.Size = new System.Drawing.Size(309, 53);
+            this.textBoxCreditCardNo.Size = new System.Drawing.Size(309, 44);
             this.textBoxCreditCardNo.TabIndex = 14;
             this.textBoxCreditCardNo.Text = "xxxx-xxxx-xxxx-xxxx";
             this.textBoxCreditCardNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -921,7 +922,7 @@
             this.textBoxCreditCardCust.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBoxCreditCardCust.Location = new System.Drawing.Point(14, 184);
             this.textBoxCreditCardCust.Name = "textBoxCreditCardCust";
-            this.textBoxCreditCardCust.Size = new System.Drawing.Size(312, 53);
+            this.textBoxCreditCardCust.Size = new System.Drawing.Size(312, 44);
             this.textBoxCreditCardCust.TabIndex = 13;
             this.textBoxCreditCardCust.Text = "0";
             this.textBoxCreditCardCust.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1008,7 +1009,7 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(8, 5);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(314, 50);
+            this.label4.Size = new System.Drawing.Size(256, 41);
             this.label4.TabIndex = 21;
             this.label4.Text = "Credit Card Type";
             // 
@@ -1342,7 +1343,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(16, 275);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(248, 40);
+            this.label7.Size = new System.Drawing.Size(203, 33);
             this.label7.TabIndex = 128;
             this.label7.Text = "Delivery Partner";
             // 
@@ -1372,7 +1373,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(213, 12);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(148, 40);
+            this.label6.Size = new System.Drawing.Size(122, 33);
             this.label6.TabIndex = 126;
             this.label6.Text = "QR / Card";
             // 
@@ -1562,7 +1563,7 @@
             this.textBoxBankingCustName.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBoxBankingCustName.Location = new System.Drawing.Point(22, 180);
             this.textBoxBankingCustName.Name = "textBoxBankingCustName";
-            this.textBoxBankingCustName.Size = new System.Drawing.Size(262, 53);
+            this.textBoxBankingCustName.Size = new System.Drawing.Size(262, 44);
             this.textBoxBankingCustName.TabIndex = 13;
             this.textBoxBankingCustName.Text = "CustName";
             this.textBoxBankingCustName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1574,7 +1575,7 @@
             this.textBoxBankingDetail.ForeColor = System.Drawing.SystemColors.MenuText;
             this.textBoxBankingDetail.Location = new System.Drawing.Point(22, 107);
             this.textBoxBankingDetail.Name = "textBoxBankingDetail";
-            this.textBoxBankingDetail.Size = new System.Drawing.Size(262, 53);
+            this.textBoxBankingDetail.Size = new System.Drawing.Size(262, 44);
             this.textBoxBankingDetail.TabIndex = 14;
             this.textBoxBankingDetail.Text = "Time/Desc";
             this.textBoxBankingDetail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1593,7 +1594,7 @@
             "Alipay "});
             this.comboBoxBankName.Location = new System.Drawing.Point(22, 31);
             this.comboBoxBankName.Name = "comboBoxBankName";
-            this.comboBoxBankName.Size = new System.Drawing.Size(262, 58);
+            this.comboBoxBankName.Size = new System.Drawing.Size(262, 49);
             this.comboBoxBankName.TabIndex = 15;
             this.comboBoxBankName.Text = "Select Type";
             // 
@@ -1623,7 +1624,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(29, 11);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 40);
+            this.label5.Size = new System.Drawing.Size(110, 33);
             this.label5.TabIndex = 21;
             this.label5.Text = "Banking";
             // 
@@ -1667,7 +1668,7 @@
             this.txtBoxCCBalanaceEnd.Margin = new System.Windows.Forms.Padding(4);
             this.txtBoxCCBalanaceEnd.Name = "txtBoxCCBalanaceEnd";
             this.txtBoxCCBalanaceEnd.ReadOnly = true;
-            this.txtBoxCCBalanaceEnd.Size = new System.Drawing.Size(379, 48);
+            this.txtBoxCCBalanaceEnd.Size = new System.Drawing.Size(379, 40);
             this.txtBoxCCBalanaceEnd.TabIndex = 166;
             this.txtBoxCCBalanaceEnd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -1680,7 +1681,7 @@
             this.label9.Location = new System.Drawing.Point(24, 179);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(370, 31);
+            this.label9.Size = new System.Drawing.Size(305, 25);
             this.label9.TabIndex = 165;
             this.label9.Text = "ยอดเงินคงเหลือหลังชำระ Cash Card";
             // 
@@ -1703,7 +1704,7 @@
             this.label8.Location = new System.Drawing.Point(23, 94);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(343, 31);
+            this.label8.Size = new System.Drawing.Size(282, 25);
             this.label8.TabIndex = 133;
             this.label8.Text = "ยอดเงินคงเหลือปัจจุบัน / Balance";
             // 
@@ -1749,7 +1750,7 @@
             this.label11.Location = new System.Drawing.Point(20, 8);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(365, 31);
+            this.label11.Size = new System.Drawing.Size(305, 25);
             this.label11.TabIndex = 132;
             this.label11.Text = "รหัสบัตรเงินสด / Voucher / สมาชิก";
             // 
@@ -1761,7 +1762,7 @@
             this.txtBoxCCCode.Location = new System.Drawing.Point(24, 44);
             this.txtBoxCCCode.Margin = new System.Windows.Forms.Padding(4);
             this.txtBoxCCCode.Name = "txtBoxCCCode";
-            this.txtBoxCCCode.Size = new System.Drawing.Size(285, 48);
+            this.txtBoxCCCode.Size = new System.Drawing.Size(285, 40);
             this.txtBoxCCCode.TabIndex = 129;
             this.txtBoxCCCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtBoxCCCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxCCCode_KeyPress);
@@ -1775,7 +1776,7 @@
             this.txtBoxCCBalanceAmt.Margin = new System.Windows.Forms.Padding(4);
             this.txtBoxCCBalanceAmt.Name = "txtBoxCCBalanceAmt";
             this.txtBoxCCBalanceAmt.ReadOnly = true;
-            this.txtBoxCCBalanceAmt.Size = new System.Drawing.Size(381, 48);
+            this.txtBoxCCBalanceAmt.Size = new System.Drawing.Size(381, 40);
             this.txtBoxCCBalanceAmt.TabIndex = 130;
             this.txtBoxCCBalanceAmt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -1786,7 +1787,7 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(16, 7);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(364, 40);
+            this.label10.Size = new System.Drawing.Size(298, 33);
             this.label10.TabIndex = 21;
             this.label10.Text = "Member Card / CashCard";
             // 
