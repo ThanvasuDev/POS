@@ -351,6 +351,7 @@ namespace AppRest
             panelCreditCard.Visible = false;
             panelBanking.Visible = false;
             panelCashCard.Visible = false;
+           
         }
 
         private void buttonCreditCard_Click(object sender, EventArgs e)
